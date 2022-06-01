@@ -1,0 +1,41 @@
+:root {
+    --warna-navbar : #ffffff;
+    --warna-font : #1e1e1e;
+    --color-hover: #bf1d29;
+}
+
+.content-message-ajm {
+    padding: 60px;
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.288);
+}
+.content-message-ajm h1 {
+    font-size: 38px;
+}
+.content-message-ajm p {
+    font-size: 20px;
+}
+.content-message-ajm .btn-message-ajm {
+    font-size: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: var(--warna-font);
+    color: var(--warna-navbar);
+    transition: 0.4s ease;
+    margin-top: 20px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.288);
+}
+.content-message-ajm .btn-message-ajm:hover {
+    background-color: var(--color-hover);
+}
+.alamat {
+    margin-top: 50px;
+}

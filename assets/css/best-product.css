@@ -1,0 +1,63 @@
+:root {
+    --warna-navbar : #ffffff;
+    --warna-font : #1e1e1e;
+    --color-hover: #bf1d29;
+}
+
+.card-best-produk {
+    width: 33.3333%;
+    margin-top: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-left: 7px;
+    margin-right: 7px;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.301);
+}
+.img-card-best {
+    line-height: 0;
+}
+.img-best {
+    width: 100%;
+}
+.icon-best {
+    width: 40px;
+    position: relative;
+    top: -50px;
+    right: -85%;
+}
+.text-card-best {
+    margin-top: -30px;
+    line-height: 26px;
+    padding: 10px;
+}
+.text-card-best .btn-card-best {
+    font-size: 18px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    transition: 0.4s;
+    background-color: var(--warna-font);
+    color: var(--warna-navbar);
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.288);
+}
+.text-card-best .btn-card-best:hover {
+    background-color: var(--color-hover);
+    color: var(--warna-navbar);
+}
+.card-best {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+@media (min-width: 450px) and (max-width: 767px){
+    .card-best {
+        flex-direction: column;
+    }
+    .card-best-produk {
+        width: 85%;
+    }
+}
